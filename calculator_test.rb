@@ -12,4 +12,9 @@ class CalculatorTest < Test::Unit::TestCase
     assert_equal(5, total)
   end
 
+  def test_multiplication
+    total = multiply(13, 3)
+    assert_equal(39, total)
+  end
+
 end
