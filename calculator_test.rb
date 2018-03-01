@@ -17,4 +17,14 @@ class CalculatorTest < Test::Unit::TestCase
     assert_equal(39, total)
   end
 
+  def test_division
+    total = divide(15, 5)
+    assert_equal(3, total)
+  end
+
+  def test_square
+    total = square(5, 2)
+    assert_equal(25, total)
+  end
+
 end

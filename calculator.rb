@@ -10,3 +10,11 @@ end
 def multiply(a, b)
   a * b
 end
+
+def divide(a, b)
+  a / b
+end
+
+def square(a, b)
+  a ** b
+end
